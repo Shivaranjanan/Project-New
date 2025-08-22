@@ -1,0 +1,27 @@
+# This is a comment - comments are ignored by the interpreter
+# The 'print()' function displays output to the console
+print("Hello, World!")
+
+# Variables store data
+name = "Alice"
+age = 30
+
+# You can use f-strings for formatted output
+print(f"My name is {name} and I am {age} years old.")
+
+# Conditional statements
+if age >= 18:
+    print("I am an adult.")
+else:
+    print("I am a minor.")
+
+# Loops
+for i in range(3): # This loop will run 3 times (0, 1, 2)
+    print(f"Loop iteration: {i}")
+
+# Functions
+def greet(person_name):
+    """This function greets a person."""
+    print(f"Greetings, {person_name}!")
+
+greet("Bob")
